@@ -1,0 +1,1 @@
+allow charger rootfs:file { ioctl read getattr lock map execute entrypoint open };
