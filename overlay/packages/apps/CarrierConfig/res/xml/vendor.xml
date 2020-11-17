@@ -18,5 +18,15 @@
 <carrier_config_list>
     <carrier_config>
         <boolean name="hide_signal_strength_in_sim_status_bool" value="true" />
+
+        <string-array translatable="false" name="config_gpsParameters">
+            <item>NTP_SERVER=pool.ntp.org</item>
+            <item>XTRA_SERVER_1=http://gllto.glpals.com/7day/v5/latest/lto2.dat</item>
+            <item>XTRA_SERVER_2=http://gllto1.glpals.com/7day/v5/latest/lto2.dat</item>
+            <item>XTRA_SERVER_3=http://gllto2.glpals.com/7day/v5/latest/lto2.dat</item>
+            <item>SUPL_HOST=supl.google.com</item>
+            <item>SUPL_PORT=7275</item>
+            <item>SUPL_MODE=3</item>
+        </string-array>
     </carrier_config>
 </carrier_config_list>
