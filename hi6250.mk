@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
+    init-apex-setup.rc \
     init.bcm43xx.rc \
     init.hisi.rc \
     init.hi6250.rc \
