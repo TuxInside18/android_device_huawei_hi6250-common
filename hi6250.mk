@@ -21,6 +21,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Apex
+PRODUCT_COPY_FILES += \
+	frameworks/av/apex/mediaswcodec.rc:system/etc/init/mediaswcodec-treble.rc
+
 # Audio
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
