@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/huawei/hi6250-common/hi6250-common-vendor.mk)
+$(call inherit-product, vendor/vndk/vndk.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -114,10 +115,6 @@ PRODUCT_COPY_FILES += \
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
-
-# Selinux
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/sepolicy/27.0.cil:$(TARGET_COPY_OUT_SYSTEM)/etc/selinux/mapping/27.0.cil
 
 # Shims
 PRODUCT_PACKAGES += \
