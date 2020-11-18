@@ -2645,6 +2645,3 @@ emui/base/global/ons.bin
 # SmartDisplay
 lib/libhwsmartdisplay_jni.so
 lib64/libhwsmartdisplay_jni.so
-
-# Wifi
-lib64/libwifi-system.so|7b990ee6f1aeb4d9446231b15fedcf7db277f88c
